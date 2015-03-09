@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					77DB9BDA1AA90190001EAB7A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = TAGM86AK24;
 					};
 					77DB9BEF1AA90190001EAB7A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -420,6 +421,7 @@
 			baseConfigurationReference = 11FB3339A24974F8F4D60A55 /* Pods-TestingShipIO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -435,6 +437,7 @@
 			baseConfigurationReference = 32AC65BDAFA1CCE590F58CB2 /* Pods-TestingShipIO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
