@@ -19,7 +19,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        (segue as CCMPopupSegue).destinationBounds = CGRectMake(0, 0, 50, 50)
+    }
 
-
+    @IBAction func closedPopup(segue: UIStoryboardSegue) {
+        
+    }
 }
 

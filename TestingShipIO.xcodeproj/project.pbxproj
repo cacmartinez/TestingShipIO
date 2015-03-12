@@ -31,6 +31,7 @@
 /* Begin PBXFileReference section */
 		11FB3339A24974F8F4D60A55 /* Pods-TestingShipIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingShipIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestingShipIO/Pods-TestingShipIO.debug.xcconfig"; sourceTree = "<group>"; };
 		32AC65BDAFA1CCE590F58CB2 /* Pods-TestingShipIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingShipIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestingShipIO/Pods-TestingShipIO.release.xcconfig"; sourceTree = "<group>"; };
+		771A5A631AB11D0C00D6197D /* TestingShipIOBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingShipIOBridgingHeader.h; sourceTree = "<group>"; };
 		7734FBC61AAE24A300534B58 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		7734FBC71AAE24A300534B58 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		77DB9BDB1AA90190001EAB7A /* TestingShipIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingShipIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +107,7 @@
 				77DB9BE71AA90190001EAB7A /* Images.xcassets */,
 				77DB9BE91AA90190001EAB7A /* LaunchScreen.xib */,
 				77DB9BDE1AA90190001EAB7A /* Supporting Files */,
+				771A5A631AB11D0C00D6197D /* TestingShipIOBridgingHeader.h */,
 			);
 			path = TestingShipIO;
 			sourceTree = "<group>";
@@ -429,6 +431,7 @@
 				INFOPLIST_FILE = TestingShipIO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
 			};
 			name = Debug;
 		};
@@ -446,6 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
 			};
 			name = Release;
 		};
