@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Crashlytics
 
 class ViewController: UIViewController {
 
@@ -21,11 +22,11 @@ class ViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        (segue as CCMPopupSegue).destinationBounds = CGRectMake(0, 0, 50, 50)
+        (segue as! CCMPopupSegue).destinationBounds = CGRectMake(0, 0, 50, 50)
     }
 
     @IBAction func closedPopup(segue: UIStoryboardSegue) {
-        
+//        Crashlytics.sharedInstance().crash()
     }
 }
 
