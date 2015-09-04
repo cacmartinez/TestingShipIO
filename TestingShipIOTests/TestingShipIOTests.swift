@@ -26,6 +26,10 @@ class TestingShipIOTests: XCTestCase {
         XCTAssert(true, "Pass")
     }
     
+    func testOperations() {
+        XCTAssertEqual(Operations.sum(10, b: 5), 14)
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock() {

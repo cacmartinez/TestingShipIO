@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7717C6201B99255B0031E855 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717C61F1B99255B0031E855 /* Operations.swift */; };
+		7717C6211B9926160031E855 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717C61F1B99255B0031E855 /* Operations.swift */; };
 		7734FBC81AAE24A300534B58 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7734FBC61AAE24A300534B58 /* Crashlytics.framework */; };
 		7734FBC91AAE24A300534B58 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7734FBC71AAE24A300534B58 /* Fabric.framework */; };
 		77DB9BE11AA90190001EAB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB9BE01AA90190001EAB7A /* AppDelegate.swift */; };
@@ -33,6 +35,7 @@
 		32AC65BDAFA1CCE590F58CB2 /* Pods-TestingShipIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingShipIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestingShipIO/Pods-TestingShipIO.release.xcconfig"; sourceTree = "<group>"; };
 		647AC2099BFBA94275602C17 /* Pods_TestingShipIOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingShipIOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64975AB0ABD6F88376429A3B /* Pods-TestingShipIO.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingShipIO.production.xcconfig"; path = "Pods/Target Support Files/Pods-TestingShipIO/Pods-TestingShipIO.production.xcconfig"; sourceTree = "<group>"; };
+		7717C61F1B99255B0031E855 /* Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 		771A5A631AB11D0C00D6197D /* TestingShipIOBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingShipIOBridgingHeader.h; sourceTree = "<group>"; };
 		7734FBC61AAE24A300534B58 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		7734FBC71AAE24A300534B58 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
@@ -111,6 +114,7 @@
 				77DB9BE91AA90190001EAB7A /* LaunchScreen.xib */,
 				77DB9BDE1AA90190001EAB7A /* Supporting Files */,
 				771A5A631AB11D0C00D6197D /* TestingShipIOBridgingHeader.h */,
+				7717C61F1B99255B0031E855 /* Operations.swift */,
 			);
 			path = TestingShipIO;
 			sourceTree = "<group>";
@@ -317,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7717C6201B99255B0031E855 /* Operations.swift in Sources */,
 				77DB9BE31AA90190001EAB7A /* ViewController.swift in Sources */,
 				77DB9BE11AA90190001EAB7A /* AppDelegate.swift in Sources */,
 			);
@@ -326,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7717C6211B9926160031E855 /* Operations.swift in Sources */,
 				77DB9BF71AA90190001EAB7A /* TestingShipIOTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
