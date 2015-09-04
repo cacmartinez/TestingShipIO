@@ -11,9 +11,9 @@ end
 
 target 'TestingShipIOTests' do
 
-pod 'Specta'
-pod 'Expecta'
-pod 'OCMockito'
+#pod 'Specta'
+#pod 'Expecta'
+#pod 'OCMockito'
 
 end
 

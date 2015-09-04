@@ -186,12 +186,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77DB9BFD1AA90190001EAB7A /* Build configuration list for PBXNativeTarget "TestingShipIOTests" */;
 			buildPhases = (
-				EC8C1118C6EE587D09010D34 /* Check Pods Manifest.lock */,
 				77DB9BEC1AA90190001EAB7A /* Sources */,
 				77DB9BED1AA90190001EAB7A /* Frameworks */,
 				77DB9BEE1AA90190001EAB7A /* Resources */,
-				0375F9D9F3773EE6436CAAD2 /* Copy Pods Resources */,
-				55632FF46DB488FA8DB149E9 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,21 +260,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0375F9D9F3773EE6436CAAD2 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0C9FCE66E1B3B6459FE12091 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,21 +273,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIO/Pods-TestingShipIO-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55632FF46DB488FA8DB149E9 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7734FBC51AAE248000534B58 /* ShellScript */ = {
@@ -322,21 +289,6 @@
 			shellScript = "./Fabric.framework/run ${FABRIC_API_KEY} ${FABRIC_BUILD_SECRET}\necho ${FABRIC_API_KEY}\necho ${FABRIC_BUILD_SECRET}";
 		};
 		90897A8F32FD6162D6550D5D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EC8C1118C6EE587D09010D34 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -472,7 +424,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TestingShipIO/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
@@ -481,7 +433,6 @@
 		};
 		77ABDE4F1AB8CF93001F0B3A /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD2D04737B82F4B6F4D7FA6A /* Pods-TestingShipIOTests.production.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -533,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -570,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -591,7 +542,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TestingShipIO/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
@@ -611,7 +562,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TestingShipIO/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -621,7 +572,6 @@
 		};
 		77DB9BFE1AA90190001EAB7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9FC9102053337A5676DAE4F /* Pods-TestingShipIOTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -641,7 +591,6 @@
 		};
 		77DB9BFF1AA90190001EAB7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95486AAFD0A6CCC2E89254E1 /* Pods-TestingShipIOTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
