@@ -27,7 +27,7 @@ class TestingShipIOTests: XCTestCase {
     }
     
     func testOperations() {
-        XCTAssertEqual(Operations.sum(2, b: 3), 6, "The test of 2 + 3 = 6 failed")
+        XCTAssertEqual(Operations.sum(2, b: 3), 5, "The test of 2 + 3 = 6 failed")
         XCTAssertEqual(Operations.sum(10, b: 5), 15)
     }
     
