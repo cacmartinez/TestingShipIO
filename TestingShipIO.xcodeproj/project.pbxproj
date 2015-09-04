@@ -16,7 +16,6 @@
 		77DB9BEB1AA90190001EAB7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77DB9BE91AA90190001EAB7A /* LaunchScreen.xib */; };
 		77DB9BF71AA90190001EAB7A /* TestingShipIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB9BF61AA90190001EAB7A /* TestingShipIOTests.swift */; };
 		9BC51C20F3FC950CB7C1BFA4 /* Pods_TestingShipIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DA2A09F3D5A25BC8717AA3 /* Pods_TestingShipIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		AB067E20FBD5F4BF779A3CB6 /* Pods_TestingShipIOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647AC2099BFBA94275602C17 /* Pods_TestingShipIOTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB067E20FBD5F4BF779A3CB6 /* Pods_TestingShipIOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
