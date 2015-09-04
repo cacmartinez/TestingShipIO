@@ -47,10 +47,7 @@
 		77DB9BF01AA90190001EAB7A /* TestingShipIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingShipIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DB9BF51AA90190001EAB7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77DB9BF61AA90190001EAB7A /* TestingShipIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingShipIOTests.swift; sourceTree = "<group>"; };
-		95486AAFD0A6CCC2E89254E1 /* Pods-TestingShipIOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingShipIOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests.release.xcconfig"; sourceTree = "<group>"; };
 		B0DA2A09F3D5A25BC8717AA3 /* Pods_TestingShipIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingShipIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9FC9102053337A5676DAE4F /* Pods-TestingShipIOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingShipIOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD2D04737B82F4B6F4D7FA6A /* Pods-TestingShipIOTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingShipIOTests.production.xcconfig"; path = "Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests.production.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,9 +148,6 @@
 				11FB3339A24974F8F4D60A55 /* Pods-TestingShipIO.debug.xcconfig */,
 				32AC65BDAFA1CCE590F58CB2 /* Pods-TestingShipIO.release.xcconfig */,
 				64975AB0ABD6F88376429A3B /* Pods-TestingShipIO.production.xcconfig */,
-				C9FC9102053337A5676DAE4F /* Pods-TestingShipIOTests.debug.xcconfig */,
-				FD2D04737B82F4B6F4D7FA6A /* Pods-TestingShipIOTests.production.xcconfig */,
-				95486AAFD0A6CCC2E89254E1 /* Pods-TestingShipIOTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -417,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FABRIC_API_KEY = 3f1102e176e24fb1711ca2ec596ee527c4d294af;
 				FABRIC_BUILD_SECRET = 95289138c1e511c6c32c552fcde5925fa87c4ef4fed3ffd035612469b248f1f8;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -535,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FABRIC_API_KEY = e064c91a3c450398bf46c65dfa28ebad0dc84628;
 				FABRIC_BUILD_SECRET = 7f4348c0a4f0d36093e55123ffbdac67d0fb17fde3fd9736f20d83abdfc07700;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -555,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FABRIC_API_KEY = e064c91a3c450398bf46c65dfa28ebad0dc84628;
 				FABRIC_BUILD_SECRET = 7f4348c0a4f0d36093e55123ffbdac67d0fb17fde3fd9736f20d83abdfc07700;
 				FRAMEWORK_SEARCH_PATHS = (
