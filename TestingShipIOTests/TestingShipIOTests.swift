@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import TestingShipIO
 
 class TestingShipIOTests: XCTestCase {
     

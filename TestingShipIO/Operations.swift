@@ -8,8 +8,8 @@
 
 import Foundation
 
-class Operations {
-    static func sum(a: Int, b: Int) -> Int {
+public class Operations {
+    public static func sum(a: Int, b: Int) -> Int {
         return a + b
     }
 }
