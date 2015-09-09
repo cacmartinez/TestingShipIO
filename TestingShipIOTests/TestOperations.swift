@@ -22,19 +22,19 @@ class OperationsTest: QuickSpec {
 //        XCTAssertTrue(sum > 0);
 //    }
     
-    override func spec() {
-        XCTAssert(Operations.sum(3, b: 5) > 0);
-        describe("Operation") {
-            describe("sum") {
-                context("when summing to possitive numbers") {
-                    it ("produces a positive result") {
-                        XCTAssert(Operations.sum(3, b: 5) > 0);
-//                        expect(Operations.sum(3, b: 5)).to()
-                    }
-                }
-            }
-        }
-    }
+//    override func spec() {
+//        XCTAssert(Operations.sum(3, b: 5) > 0);
+//        describe("Operation") {
+//            describe("sum") {
+//                context("when summing to possitive numbers") {
+//                    it ("produces a positive result") {
+//                        XCTAssert(Operations.sum(3, b: 5) > 0);
+////                        expect(Operations.sum(3, b: 5)).to()
+//                    }
+//                }
+//            }
+//        }
+//    }
     
     func name(hola: Int, adios: Int) -> Int {
         return hola;
