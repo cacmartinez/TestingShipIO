@@ -9,6 +9,6 @@
 #ifndef TestingShipIOTests_BridgingHeader_h
 #define TestingShipIOTests_BridgingHeader_h
 
-#import <Quick/Quick.h>
+//#import <Quick/Quick.h>
 
 #endif /* TestingShipIOTests_BridgingHeader_h */

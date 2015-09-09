@@ -17,7 +17,6 @@
 		77DB9BE81AA90190001EAB7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DB9BE71AA90190001EAB7A /* Images.xcassets */; };
 		77DB9BEB1AA90190001EAB7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77DB9BE91AA90190001EAB7A /* LaunchScreen.xib */; };
 		77DB9BF71AA90190001EAB7A /* TestingShipIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB9BF61AA90190001EAB7A /* TestingShipIOTests.swift */; };
-		902CA8E79EC821B92B9E9EFE /* Pods_TestingShipIOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647AC2099BFBA94275602C17 /* Pods_TestingShipIOTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9BC51C20F3FC950CB7C1BFA4 /* Pods_TestingShipIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DA2A09F3D5A25BC8717AA3 /* Pods_TestingShipIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -73,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				902CA8E79EC821B92B9E9EFE /* Pods_TestingShipIOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,12 +192,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77DB9BFD1AA90190001EAB7A /* Build configuration list for PBXNativeTarget "TestingShipIOTests" */;
 			buildPhases = (
-				B195BC2BE829C627CA18E7CB /* Check Pods Manifest.lock */,
 				77DB9BEC1AA90190001EAB7A /* Sources */,
 				77DB9BED1AA90190001EAB7A /* Frameworks */,
 				77DB9BEE1AA90190001EAB7A /* Resources */,
-				09C9921D0BE31C76DCBDAD48 /* Embed Pods Frameworks */,
-				3E1FB4C34694C8A6CC6D809A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,21 +266,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09C9921D0BE31C76DCBDAD48 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0C9FCE66E1B3B6459FE12091 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,21 +279,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIO/Pods-TestingShipIO-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E1FB4C34694C8A6CC6D809A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7734FBC51AAE248000534B58 /* ShellScript */ = {
@@ -330,21 +295,6 @@
 			shellScript = "./Fabric.framework/run ${FABRIC_API_KEY} ${FABRIC_BUILD_SECRET}\necho ${FABRIC_API_KEY}\necho ${FABRIC_BUILD_SECRET}";
 		};
 		90897A8F32FD6162D6550D5D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B195BC2BE829C627CA18E7CB /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
