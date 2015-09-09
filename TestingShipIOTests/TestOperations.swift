@@ -13,7 +13,7 @@ import TestingShipIO
 /**
 * hola
 */
-class OperationsTest: QuickSpec {
+class OperationsTest: XCTestCase {
     
     var hola: String = ""
     
