@@ -213,12 +213,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Carlos Compean";
 				TargetAttributes = {
 					77DB9BDA1AA90190001EAB7A = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = TAGM86AK24;
+						DevelopmentTeam = SHHCGUR3B4;
 					};
 					77DB9BEF1AA90190001EAB7A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -426,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FABRIC_API_KEY = 3f1102e176e24fb1711ca2ec596ee527c4d294af;
 				FABRIC_BUILD_SECRET = 95289138c1e511c6c32c552fcde5925fa87c4ef4fed3ffd035612469b248f1f8;
@@ -436,7 +437,9 @@
 				INFOPLIST_FILE = TestingShipIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icalialabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
 			};
 			name = Production;
@@ -455,6 +458,7 @@
 				);
 				INFOPLIST_FILE = TestingShipIOTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icalialabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestingShipIOTests/TestingShipIOTests-BridgingHeader.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingShipIO.app/TestingShipIO";
@@ -482,6 +486,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -548,6 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FABRIC_API_KEY = e064c91a3c450398bf46c65dfa28ebad0dc84628;
 				FABRIC_BUILD_SECRET = 7f4348c0a4f0d36093e55123ffbdac67d0fb17fde3fd9736f20d83abdfc07700;
@@ -558,7 +564,9 @@
 				INFOPLIST_FILE = TestingShipIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icalialabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
 			};
 			name = Debug;
@@ -569,6 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FABRIC_API_KEY = e064c91a3c450398bf46c65dfa28ebad0dc84628;
 				FABRIC_BUILD_SECRET = 7f4348c0a4f0d36093e55123ffbdac67d0fb17fde3fd9736f20d83abdfc07700;
@@ -579,6 +588,7 @@
 				INFOPLIST_FILE = TestingShipIO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icalialabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
@@ -599,6 +609,7 @@
 				);
 				INFOPLIST_FILE = TestingShipIOTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icalialabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestingShipIOTests/TestingShipIOTests-BridgingHeader.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingShipIO.app/TestingShipIO";
@@ -615,6 +626,7 @@
 				);
 				INFOPLIST_FILE = TestingShipIOTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icalialabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TestingShipIOTests/TestingShipIOTests-BridgingHeader.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingShipIO.app/TestingShipIO";
