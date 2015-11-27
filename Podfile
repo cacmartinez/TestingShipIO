@@ -12,8 +12,8 @@ end
 target 'TestingShipIOTests' do
 use_frameworks!
     
-    #pod 'Quick', '~> 0.6.0'
-    #pod 'Nimble', '2.0.0-rc.2'
+pod 'Quick'
+pod 'Nimble'
 #pod 'Specta'
 #pod 'Expecta'
 #pod 'OCMockito'

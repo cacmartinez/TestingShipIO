@@ -8,35 +8,63 @@
 
 import Foundation
 import XCTest
+import Nimble
+import Quick
 import TestingShipIO
 
 /**
 * hola
 */
-class OperationsTest: XCTestCase {
+class OperationsTest: QuickSpec {
     
-    var hola: String = ""
-    
-//    func testAlgo() {
-//        let sum = Operations.sum(3, b: -5)
-//        XCTAssertTrue(sum > 0);
-//    }
-    
-//    override func spec() {
-//        XCTAssert(Operations.sum(3, b: 5) > 0);
-//        describe("Operation") {
-//            describe("sum") {
-//                context("when summing to possitive numbers") {
-//                    it ("produces a positive result") {
-//                        XCTAssert(Operations.sum(3, b: 5) > 0);
-////                        expect(Operations.sum(3, b: 5)).to()
-//                    }
-//                }
-//            }
-//        }
-//    }
-    
-    func name(hola: Int, adios: Int) -> Int {
-        return hola;
+    override func spec() {
+        describe("my program") { () -> Void in
+            
+            var x: Int!
+            
+            beforeEach { (exampleMetadata: ExampleMetadata) in
+                print("Example \(exampleMetadata.example.name) will start to run")
+                x = 5
+            }
+            
+            context("when performing operations", { () -> Void in
+                it("is adding") { () -> () in
+                    x! += 2
+                    expect(x).to(equal(7))
+                }
+                
+                it("is substracting") {
+                    x! -= 3
+                    expect(x).to(equal(2))
+                }
+            })
+            
+        }
+        
     }
+    
+//    var hola: String = ""
+//    
+////    func testAlgo() {
+////        let sum = Operations.sum(3, b: -5)
+////        XCTAssertTrue(sum > 0);
+////    }
+//    
+////    override func spec() {
+////        XCTAssert(Operations.sum(3, b: 5) > 0);
+////        describe("Operation") {
+////            describe("sum") {
+////                context("when summing to possitive numbers") {
+////                    it ("produces a positive result") {
+////                        XCTAssert(Operations.sum(3, b: 5) > 0);
+//////                        expect(Operations.sum(3, b: 5)).to()
+////                    }
+////                }
+////            }
+////        }
+////    }
+//    
+//    func name(hola: Int, adios: Int) -> Int {
+//        return hola;
+//    }
 }

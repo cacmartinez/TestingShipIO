@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AFDE3F465C42A3BEC7DC98B /* Pods_TestingShipIOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647AC2099BFBA94275602C17 /* Pods_TestingShipIOTests.framework */; };
 		7717C6201B99255B0031E855 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717C61F1B99255B0031E855 /* Operations.swift */; };
 		7717C6231B9A2B6E0031E855 /* TestOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717C6221B9A2B6E0031E855 /* TestOperations.swift */; };
 		7734FBC81AAE24A300534B58 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7734FBC61AAE24A300534B58 /* Crashlytics.framework */; };
@@ -17,7 +18,7 @@
 		77DB9BE81AA90190001EAB7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DB9BE71AA90190001EAB7A /* Images.xcassets */; };
 		77DB9BEB1AA90190001EAB7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77DB9BE91AA90190001EAB7A /* LaunchScreen.xib */; };
 		77DB9BF71AA90190001EAB7A /* TestingShipIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DB9BF61AA90190001EAB7A /* TestingShipIOTests.swift */; };
-		9BC51C20F3FC950CB7C1BFA4 /* Pods_TestingShipIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DA2A09F3D5A25BC8717AA3 /* Pods_TestingShipIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9BC51C20F3FC950CB7C1BFA4 /* Pods_TestingShipIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DA2A09F3D5A25BC8717AA3 /* Pods_TestingShipIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFDE3F465C42A3BEC7DC98B /* Pods_TestingShipIOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77DB9BFD1AA90190001EAB7A /* Build configuration list for PBXNativeTarget "TestingShipIOTests" */;
 			buildPhases = (
+				FDF0810DC03B074E336C3A81 /* Check Pods Manifest.lock */,
 				77DB9BEC1AA90190001EAB7A /* Sources */,
 				77DB9BED1AA90190001EAB7A /* Frameworks */,
 				77DB9BEE1AA90190001EAB7A /* Resources */,
+				294446368A4129D401E47BE3 /* Embed Pods Frameworks */,
+				5F297CE9A3322BF273540599 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +286,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIO/Pods-TestingShipIO-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		294446368A4129D401E47BE3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F297CE9A3322BF273540599 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIOTests/Pods-TestingShipIOTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7734FBC51AAE248000534B58 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +357,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestingShipIO/Pods-TestingShipIO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF0810DC03B074E336C3A81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -446,6 +496,7 @@
 		};
 		77ABDE4F1AB8CF93001F0B3A /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB86B7774FAD3A4462B3369 /* Pods-TestingShipIOTests.production.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -597,6 +648,7 @@
 		};
 		77DB9BFE1AA90190001EAB7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9BED04FA25EC13C3F8E11F /* Pods-TestingShipIOTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -618,6 +670,7 @@
 		};
 		77DB9BFF1AA90190001EAB7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322515114D6820B2B635E110 /* Pods-TestingShipIOTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
