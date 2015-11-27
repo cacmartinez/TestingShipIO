@@ -35,7 +35,7 @@ class OperationsTest: QuickSpec {
                 
                 it("is substracting") {
                     x! -= 3
-                    expect(x).to(equal(2))
+                    expect(x).to(equal(1))
                 }
             })
             
