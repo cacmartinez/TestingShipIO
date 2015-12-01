@@ -490,7 +490,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icalialabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f115b973-7ab2-4e67-b9d6-28527db7567f";
+				PROVISIONING_PROFILE = "8097b20f-ac3c-4c2a-9324-5388df7c0288";
 				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
 			};
 			name = Production;
@@ -643,7 +643,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icalialabs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f115b973-7ab2-4e67-b9d6-28527db7567f";
+				PROVISIONING_PROFILE = "8097b20f-ac3c-4c2a-9324-5388df7c0288";
 				SWIFT_OBJC_BRIDGING_HEADER = TestingShipIO/TestingShipIOBridgingHeader.h;
 			};
 			name = Release;
